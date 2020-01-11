@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Jaldi;
+    src: url(./font/Jaldi-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Jaldi;
+    src: url(./font/Jaldi-Bold.ttf);
+    font-weight:bold;
+  }
+
+
+body{
+    background:black;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header,section,footer{
+    margin:72px auto;
+}
+
+
+h1{
+    text-align:center;
+    font-size:72px;
+    line-height:72px;
+    font-family:Jaldi;
+    margin-bottom:10px;
+}
+p.deck{
+    text-align:center;
+}
+p{
+    font-size:18px;
+}
+
+section{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:970px;
+}
+
+div.i-am{
+    text-align:center;
+    margin-bottom:20px;
+}
+div.search{
+    text-align:center;
+}
+
+div.or{
+    text-align:center;
+    margin:20px auto;
+}
+
+div.make-a-profile{
+    text-align:center;
+}
+div.make-a-profile button{
+    margin-bottom:10px;
+}
+span.dotfamily{
+    color:yellow;
+}
