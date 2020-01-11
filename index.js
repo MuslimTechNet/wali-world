@@ -171,10 +171,6 @@ app.get('/verify',function(req,res){
 })
 });
 
-app.get('/favicon.ico',function(req,res){
-
-    res.send('Hello world!');
-});
 
 app.get('/thankyou',function(req,res){
 
